@@ -1,4 +1,4 @@
-FROM python:3.12.0
+FROM python:3.8
 COPY . /app
 WORKDIR /app
 RUN pip install -v -r requirements.txt
